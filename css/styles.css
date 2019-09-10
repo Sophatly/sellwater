@@ -1,0 +1,161 @@
+
+body{
+    background-color:#ff4893;
+    margin:0;
+}
+
+h1{
+    font-size: 5rem;
+    padding:10px;
+    font-weight: bold;
+    color:white;
+    padding-left:0;
+}
+
+h2{
+    font-size: 2.5rem;
+    color:white;
+    padding-left:12px;
+}
+
+
+
+
+
+/* navigation bar section */
+
+.navbar{
+    margin-bottom: 100px;
+}
+.nav-item{
+    margin:20px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* header section */
+
+#header{
+    text-align: center;
+    padding-bottom: 10%;
+}
+.container-fluid{
+    padding:7% 15%;
+}
+
+.row-h2{
+    font-size: 3.5rem;
+}
+
+.cloud-image{
+    width:120%;
+    position: absolute;
+    top:-120px;
+    right:-120px;
+}
+
+.promotion{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    top:160px;
+    right:40px;
+}
+
+/* body section */
+
+#body-section{
+    text-align: center;
+    background-color: white;
+}
+
+.truck-image{
+    width:150%;
+    margin:50px;
+}
+
+.body-image{
+    margin:0 30px;
+}
+
+/* price section */
+
+#price{
+    background-color:#ff4893;
+    text-align: center;
+}
+
+.card-title{
+    color:black;
+}
+
+.col-price{
+    margin:20px;
+}
+
+.container-price{
+    padding:0 0 5% 5%;
+}
+
+/* Contact section */
+#contact{
+    background-color:white;
+    text-align: center;
+}
+
+.contact-h3{
+    color:black;
+}
+
+a{
+    font-size: 2rem;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.container-contact{
+    margin-top:10px;
+}
+
+.contact-h1{
+    font-size: 5rem;
+    color:black;
+}
+
+@media (max-width: 1281px) {
+  
+    h1{
+        font-size: 3rem;
+    }
+    
+    .cloud-image{
+        position: static;
+    }
+
+    .promotion{
+        top:200px;
+        right:30px;
+        font-size: 2rem;
+    }
+
+    .truck-image{
+        width:60%;
+    }
+
+    .container-price{
+        padding:0 0 35% 10%;
+    }
+
+    .contact-h1{
+        font-size:3rem;
+    }
+  }
