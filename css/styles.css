@@ -19,9 +19,6 @@ h2{
 }
 
 
-
-
-
 /* navigation bar section */
 
 .navbar{
@@ -73,12 +70,7 @@ h2{
 }
 
 .truck-image{
-    width:150%;
-    margin:50px;
-}
-
-.body-image{
-    margin:0 30px;
+    width:80%;
 }
 
 /* price section */
@@ -97,7 +89,7 @@ h2{
 }
 
 .container-price{
-    padding:0 0 5% 5%;
+    padding:0 0 2% 2%;
 }
 
 /* Contact section */
@@ -149,10 +141,6 @@ a:hover{
 
     .truck-image{
         width:60%;
-    }
-
-    .container-price{
-        padding:0 0 35% 10%;
     }
 
     .contact-h1{
